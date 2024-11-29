@@ -2,8 +2,8 @@
 session_start();
 
 function make_connection() {
-    // return mysqli_connect( 'localhost', 'root', '', 'beeline_db' );
-	return mysqli_connect( 'localhost', 'Zainab1', 'Zainab@25', 'beeline_db' );
+    return mysqli_connect( 'localhost', 'root', '', 'beeline_db' );
+	//return mysqli_connect( 'localhost', 'Zainab1', 'Zainab@25', 'beeline_db' );
 }
 
 function insert( $Query ) {
